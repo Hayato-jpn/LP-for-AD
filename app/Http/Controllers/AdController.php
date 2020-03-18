@@ -9,9 +9,9 @@ class AdController extends Controller
     //
     public function lp() {
         if (\Agent::is('iPhone')) { //端末がiOSかどうか
-              return redirect('https://fam-ad.com/ad/p/dt?_site=64802&_loc=221380&_mstype=99'); //famのワクワクiOS
+              return redirect('https://preaf.jp/pa.do?s=v04031&o=44510&guid=ON'); //iOS MALINE
           } else {
-              return view('matching'); //Android端末遷移先
+              return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16216'); //Android TORITOMO
           }
     }
 }

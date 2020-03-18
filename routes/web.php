@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', 'AdController@lp'); //ワクワクメールLP
+Route::get('/', 'AdController@lp'); //出会えない系OS切り替え
 
 Route::get('matching', 'AdController@lp'); //ワクワクメールLP
